@@ -1,4 +1,3 @@
-name=Ð¡º×
 key=abcdefghijklmnopqrstuvwxyz
 len=63
 pull=*

@@ -1,9 +1,8 @@
 ;===================================================
 ;本地码表:支持自定义词组 只支持gb18030      【假面】
-;pull=*      pinyin=1      assist=* mb/hed.txt
-;这三项重要，不能乱填。说明辅助码在文件yon.txt中，并且任意键都能启动辅助码功能。
+;pull=*      pinyin=1
+;这二项重要，不能乱填。说明辅助码在文件hed.txt中，并且任意键都能启动辅助码功能。2016年12月6日，周二，下午7时19分备注
 ;===================================================
-name=鹤云
 key=abcdefghijklmnopqrstuvwxyz
 len=63
 pull=*
@@ -11,7 +10,6 @@ wildcard=?
 pinyin=1
 split=2
 hint=1
-assist=* mb/hed.txt
 code_e2=p11+p12+p21+p22
 code_e3=p11+p21+p22+p31
 code_a4=p.1
