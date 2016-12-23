@@ -1,3 +1,29 @@
-ouj $fullhour:$min
-orq $yea年$mon月$day日
-orq $yea-$mon-$day
+码表的特殊编码 
+  $$                        $ 
+  $_                        空格 
+  $ENGLISH        进入英文输入状态（无重且无后续编码时有效） 
+  $YYYY0              年，如二〇〇八 
+  $YYYY                年，如二零零八 
+  $yyyy                  年，如2008 
+  $MON                月，汉字 
+  $mon0                  月，数字，如02 
+  $mon                  月，数字，如2 
+  $DAY                  日，汉字 
+  $day0              日，数字，如02 
+  $day                    日，数字，如2 
+  $HOUR              小时，汉字 
+  $hour                  小时，数字，如2 
+  $hour0               小时，数字，如02 
+  $MIN                  分钟，汉字 
+  $min                    分钟，数字 
+  $SEC                  秒，汉字 
+  $sec                    秒，数字 
+  $WEEK                星期几，汉字 
+  $RIQI                   农历日期 
+  $|                          光标定位 
+  $LAST                 上一次的输出 
+  
+ouj $hour0:$min
+orq $yyyy年$mon月$day日
+orq $yyyy-$mon-$day
+  
