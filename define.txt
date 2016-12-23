@@ -1,0 +1,3 @@
+ouj $fullhour:$min
+orq $yea年$mon月$day日
+orq $yea-$mon-$day
