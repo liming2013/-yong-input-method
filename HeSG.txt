@@ -1,8 +1,17 @@
+#词库来源：小鹤双拼飞扬版——搜狗小鹤的挂接词库
+key=abcdefghijklmnopqrstuvwxyz
+len=4
+commit=0 0 0
+#auto_clear=4
+hint=1
+user=mb/work.txt
+#pinyin=1
+#split=2
+#pull=*
 [DATA]
-ouj #$fullhour:$minute
-orq #$year_cn年$month_cn月$day_cn日
-orq #$year年$month月$day日
-orq #$year-$month_mm-$day_dd
+ouj $hour0:$min
+orq $yyyy年$mon月$day日
+orq $yyyy-$mon-$day
 a 啊
 a 按
 aa 阿
